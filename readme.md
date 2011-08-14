@@ -58,7 +58,7 @@ Here's how you'd start building an app based on this method:
           // this is split out so we have a reference to it we can
           // bind and unbind on disconnect.
           function sendClientChanges(changes) {
-            client.send(changes);
+	    client.send(JSON.stringify(changes));
           }
             
           // I blast out the client templates this way, just cause we can.
