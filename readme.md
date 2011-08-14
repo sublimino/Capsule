@@ -130,7 +130,9 @@ Here's how you'd start building an app based on this method:
             var changedModel, template;
             
             console.log('RECD:', data);
-            
+
+            data = JSON.parse(data);            
+
             switch (data.event) {
               case 'templates':
                 for (template in data.templates) {
