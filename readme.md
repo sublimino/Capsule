@@ -8,7 +8,7 @@ MIT Licensed.
     
 ##Introduction !important
 
-Capsule presents and experimental approach to building real-time web apps that re-uses the exact same models on the server as what you serve in a script tag in the html of your app. I've used this approach for a couple of apps, one of which our team uses everyday.
+Capsule presents an experimental approach to building real-time web apps that re-uses the exact same models on the server as what you serve in a script tag in the html of your app. I've used this approach for a couple of apps, one of which our team uses everyday.
 
 For more information on this approach see my blog post on [Re-using Backbone.js Models on the server with Node.js and Socket.io to build realtime apps](http://andyet.net/blog/2011/feb/15/re-using-backbonejs-models-on-the-server-with-node/). It's also something I will discuss it in my upcoming talk at [NodeConf 2011](http://nodeconf.com/).
 
